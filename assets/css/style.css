@@ -118,7 +118,54 @@ p{
 }
 
 .img_profile{
-    width: 200px;
+    max-width: 130%;
+    background-color: var(--magenta-haze);
+    box-shadow: 5px 5px 6px var(--magenta-haze),  -5px -5px 7px var(--magenta-haze);
+    animation: animateBorderRadius 10s infinite alternate;
+
+}
+
+#sombra {
+    max-width: 90%;
+    background-color: var(--lilac);
+    box-shadow: 5px 5px 6px var(--fairy-tale), -5px -5px 6px var(--fairy-tale);
+    animation: animateBorderRadius2 10s infinite alternate;
+}
+
+@keyframes animateBorderRadius {
+    0% {
+        border-radius:  34% 49% 37% 59%;
+    }
+    25% {
+        border-radius: 59% 37% 49% 34%;
+    }
+    50% {
+        border-radius:  49% 34% 59% 37%;
+    }
+    75% {
+        border-radius: 34% 49% 37% 59%;
+    }
+    100% {
+        border-radius: 59% 37% 49% 34%;
+    }
+}
+
+@keyframes animateBorderRadius2 {
+    0% {
+        border-radius: 59% 37% 49% 34%;
+    }
+    25% {
+        border-radius: 34% 49% 37% 59%; 
+    }
+    50% {
+        border-radius:  49% 34% 59% 37%;
+    }
+    75% {
+        border-radius: 59% 37% 49% 34%;
+    }
+    100% {
+        border-radius: 34% 49% 37% 59%;
+    }
 }
  
 /* Estilização da Seção Video */
@@ -243,4 +290,3 @@ form button:hover {
     text-align: justify;
     font-weight: 600;
 }
-

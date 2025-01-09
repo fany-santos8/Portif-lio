@@ -9,49 +9,49 @@
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 
 	<!-- Link para a Folha de Estilo da Página - CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-	
+	<link rel="stylesheet" href="./assets/css/style.css">
+
 	<title>Meu Perfil</title>
 </head>
 
 <body>
-		<!-- Cabeçalho da Página (header) -->
-		<header>
+	<!-- Cabeçalho da Página (header) -->
+	<header>
 
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content" class="flex">
+		<!-- Div Conteudo do Cabeçalho -->
+		<div id="header_content" class="flex">
 
-				<!-- Titulo do Cabeçalho -->
-				<div id="titulo">
+			<!-- Titulo do Cabeçalho -->
+			<div id="titulo">
 
-					<!-- Seu nome -->
-					<h1>Generation Brasil</h1>
-
-				</div>
-
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-
-					<!-- Menu da Página -->
-					<nav>
-
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="contato.html">Contato</a>
-							</li>
-						</ul>
-
-					</nav>
-
-				</div>
+				<!-- Seu nome -->
+				<h1>Generation Brasil</h1>
 
 			</div>
 
-		</header>
+			<!-- Conteudo do Menu da Página (header) -->
+			<div id="menu">
+
+				<!-- Menu da Página -->
+				<nav>
+
+					<!-- Marcadores não ordenados + links -->
+					<ul id="menu">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="contato.html">Contato</a>
+						</li>
+					</ul>
+
+				</nav>
+
+			</div>
+
+		</div>
+
+	</header>
 
 	<!-- Seção Principal da Página (main) -->
 	<main>
@@ -82,17 +82,19 @@
 			</form>
 
 			<!-- Seção do Google Maps -->
-			<article id="mapa" class="flex_start">
+			<section id="mapa" class="flex_start">
 
-				<p>Miguel Couto</p>
-				<p>Nova Iguaçu, Rio de Janeiro</p>
+				<div id="endereco">
+					<p>Miguel Couto</p>
+					<p>Nova Iguaçu, Rio de Janeiro.</p>
+				</div>
 
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29445.76797363085!2d-43.444943777031824!3d-22.701427940347436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9968be682af92b%3A0x7a0dea89a97b1e96!2sMiguel%20Couto%2C%20Nova%20Igua%C3%A7u%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1736184798068!5m2!1spt-BR!2sbr"
 					width="400" height="250" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false"
 					tabindex="0" id="mapa">
 				</iframe>
-			</article>
+			</section>
 
 		</section>
 
@@ -105,13 +107,13 @@
 		<section id="redes_sociais">
 
 			<a href="https://www.linkedin.com/in/estefany-santos/">
-				<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon" />
 			</a>
 			<a href="https://github.com/fany-santos8">
-				<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+				<img src="assets/img/github.svg" alt="Github" class="social_icon" />
 			</a>
 			<a href="https://www.instagram.com/fany_santos8/">
-				<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon" />
 			</a>
 
 		</section>
